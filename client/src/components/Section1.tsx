@@ -1,7 +1,6 @@
 import "../sn1.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
-import { easeIn } from "framer-motion";
 
 import {
   faGithub,
@@ -10,7 +9,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function Section1() {
-  const eased = easeIn(0.5);
   return (
     <>
       <section id="hero-sn">
