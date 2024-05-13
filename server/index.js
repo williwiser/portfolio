@@ -23,6 +23,6 @@ app.get("/getProjects", async (req, res) => {
 
 app.post("/messageMe", async (req, res) => {});
 
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Server listening on port ${port}.`);
 });
