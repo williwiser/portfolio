@@ -14,7 +14,7 @@ function Section4() {
   const [projectList, setProjectList] = useState<Project[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/getProjects")
+    fetch("https://portfolio-seven-sooty-70.vercel.app/getProjects")
       .then((res) => res.json())
       .then((data: Project[]) => {
         setProjectList(data);
