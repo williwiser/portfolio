@@ -1,0 +1,84 @@
+.project {
+    display: flex;
+    align-content: center;
+    background-color: rgb(53, 52, 52);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(36, 35, 35);
+}
+
+.project img {
+    margin-right: 2rem;
+    max-height: 12rem;
+    border: 1px solid rgb(36, 35, 35);
+}
+.project ul li{
+    display: inline-block;
+    margin-right: 0.5%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+    color:rgb(172, 170, 170);
+    font-size: 0.8em;
+}
+
+.project ul {
+    margin: 1rem 0;
+    line-height: 90%;
+}
+
+.project .hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project .git-link{
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+.project .des {
+    margin-bottom: 1rem;
+}
+
+.demo-btn {
+    display: inline-block;
+    padding: 0.6rem;
+    border-radius: 5px;
+    background-color: rgb(205, 91, 158);
+    color: white;
+}
+
+.demo-btn:hover {
+    background-color: rgb(209, 119, 172);
+    transition: background-color 200ms ease-in;
+}
+
+@media only screen and (max-width: 768px) {
+    .project {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .project img {
+        max-height: none;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+    }
+
+    .demo-btn {
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+    .hd {
+        display: inline-block;
+    }
+
+    .hd a{
+        display: none;
+    }
+}

@@ -1,0 +1,73 @@
+#hero-sn {
+    background-color: rgb(31, 31, 31);
+    background-size: 20% 20%;
+    overflow: hidden;
+    background: radial-gradient(circle, #131313 10%, transparent 11%);
+    background-size: 1em 1em;
+    background-color: #1e1e1e;
+    opacity: 1;
+}
+
+
+#hero-sn .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15rem 100px 5rem 100px;
+}
+
+.intro {
+    text-align: center;
+    position: relative;
+}
+
+.intro h1{
+    font-size: 4.7rem;
+    color: rgb(91, 192, 205);
+}
+
+.intro h3{
+    font-size: 2rem;
+    color: rgb(205, 91, 158);
+    margin-top: 10px;
+}
+
+.intro p{
+    font-size: 1rem;
+    color: rgb(141, 195, 202);
+}
+
+
+.socials {
+    display: inline;
+    font-size: 2em;
+    margin-top: 10%;
+    background-color: #353434;
+    padding: 0.8rem 1.3rem;
+    border-radius: 5px;
+}
+
+.socials a {
+    color: white;
+}
+
+.socials a:nth-child(1):hover { 
+    color: #0a66c2;
+    transition: color 200ms ease-in;
+}
+
+.socials a:nth-child(2):hover { 
+    color: #e07a27;
+    transition: color 200ms ease-in;
+}
+
+.socials a:nth-child(3):hover { 
+    color: #000000;
+    transition: color 200ms ease-in;
+}
+
+.socials a:nth-child(2) { 
+    margin: 0 2rem;
+}
