@@ -64,7 +64,6 @@ function Section5() {
             <form
               ref={form}
               onSubmit={sendEmail}
-              action="mailto:waniwilliam@live.com"
               method="POST"
               id="usrform"
               encType="text/plain"
