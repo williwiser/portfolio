@@ -26,7 +26,7 @@ function Section2() {
                 musician, and lover of Tiramisu!
               </p>
               <a
-                href="https://drive.google.com/uc?export=download&id=1y4l--c_KdNQlrY0wgu7bBqY6rnnP77Um"
+                href="https://drive.google.com/uc?export=download&id=1MGhv_nTQZ2MaOIpo9yFiBk-wyFDL8DRn"
                 className="demo-btn"
                 download="resume"
               >
