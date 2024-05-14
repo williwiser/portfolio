@@ -28,7 +28,6 @@ function Section2() {
               <a
                 href="https://drive.google.com/uc?export=download&id=1y4l--c_KdNQlrY0wgu7bBqY6rnnP77Um"
                 className="demo-btn"
-                target="_blank"
                 download="resume"
               >
                 <FontAwesomeIcon icon={faDownload} /> Download CV
