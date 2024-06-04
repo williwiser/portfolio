@@ -17,7 +17,7 @@ function Project(props: Props) {
     <>
       <div className="project">
         <img src={props.thumbnail} alt="project"></img>
-        <div>
+        <div className="info">
           <div className="hd">
             <h1>{props.title}</h1>
             <a href={props.github} className="git-link">

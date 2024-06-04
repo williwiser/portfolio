@@ -1,31 +1,35 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
 }
 .skill {
-    display: inline-block;
-    text-align: center;
-    padding: 40px;
+  display: inline-block;
+  text-align: center;
+  padding: 40px;
 }
 
-.skill h3{
-    margin-top: 20px;
-    text-align: center;
-    color: #212121;
+.project .info {
+  width: 100%;
 }
-.skill img{
-    height: 150px;
+
+.skill h3 {
+  margin-top: 20px;
+  text-align: center;
+  color: #212121;
+}
+.skill img {
+  height: 150px;
 }
 
 @media only screen and (max-width: 768px) {
-    .grid-container {
-        display: inline-block;
-    }
+  .grid-container {
+    display: inline-block;
+  }
 
-    .skill {
-        padding: 0px;
-        margin-top: 80px;
-        display: block;
-    }
+  .skill {
+    padding: 0px;
+    margin-top: 80px;
+    display: block;
+  }
 }
