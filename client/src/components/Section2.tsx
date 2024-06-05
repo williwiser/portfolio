@@ -26,7 +26,7 @@ function Section2() {
                 musician, and lover of Tiramisu!
               </p>
               <a
-                href="../resources/Resumé William (4).pdf"
+                href="https://drive.google.com/file/d/1MGhv_nTQZ2MaOIpo9yFiBk-wyFDL8DRn/view?usp=sharing"
                 className="demo-btn"
                 download="resume"
               >
