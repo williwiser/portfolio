@@ -1,6 +1,6 @@
 import "../sn3.css";
 import htmlLogo from "../assets/html5_logo.png";
-import jsLogo from "../assets/js_logo.png";
+import jsLogo from "../assets/javascript-logo.png";
 import mongoLogo from "../assets/mongo_logo.png";
 import nodeLogo from "../assets/node_logo.png";
 import postgresLogo from "../assets/postgres_logo.png";
