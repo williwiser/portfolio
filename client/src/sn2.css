@@ -37,6 +37,10 @@
     text-align: center;
   }
 
+  .bio .demo-btn {
+    width: 100%;
+  }
+
   #sn-2 img {
     margin-bottom: 40px;
   }

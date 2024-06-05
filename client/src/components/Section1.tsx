@@ -6,6 +6,7 @@ import {
   faGithub,
   faLinkedin,
   faXTwitter,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 function Section1() {
@@ -46,14 +47,15 @@ function Section1() {
             </div>
           </motion.div>
           <div className="socials">
-            <a href="https://www.linkedin.com/in/william-wani-a47316168">
-              <FontAwesomeIcon icon={faLinkedin} />
+            <a href="https://www.linkedin.com/in/william-wani-a47316168/">
+              <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>
-            <a href="https://github.com/williwiser">
-              <FontAwesomeIcon icon={faGithub} />
+            <a href="https://github.com/williwiser/">
+              <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>
-            <a href="#">
-              <FontAwesomeIcon icon={faXTwitter} />
+
+            <a href="https://www.instagram.com/williwiser/">
+              <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
             </a>
           </div>
         </div>
