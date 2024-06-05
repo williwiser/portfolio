@@ -17,19 +17,21 @@ function Project(props: Props) {
     <>
       <div className="project">
         <img src={props.thumbnail} alt="project"></img>
-        <div className="info">
-          <div className="hd">
-            <h1>{props.title}</h1>
-            <a href={props.github} className="git-link">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
+        <div className="right-col">
+          <div className="info">
+            <div className="hd">
+              <h1>{props.title}</h1>
+              <a href={props.github} className="git-link">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </div>
+            <ul>
+              {props.tags.map((tag) => {
+                return <li>{tag.toUpperCase()}</li>;
+              })}
+            </ul>
+            <p className="des">{props.description}</p>
           </div>
-          <ul>
-            {props.tags.map((tag) => {
-              return <li>{tag.toUpperCase()}</li>;
-            })}
-          </ul>
-          <p className="des">{props.description}</p>
           <a href={props.link} className="demo-btn" target="_blank">
             <FontAwesomeIcon icon={faExternalLink} /> Live Demo
           </a>

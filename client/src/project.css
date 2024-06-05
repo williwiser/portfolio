@@ -7,6 +7,12 @@
   margin-bottom: 1rem;
 }
 
+.right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .project img {
   margin-right: 2rem;
   max-height: 12rem;
@@ -48,6 +54,8 @@
   border-radius: 5px;
   background-color: rgb(205, 91, 158);
   color: white;
+  text-align: center;
+  width: 30%;
 }
 
 .demo-btn:hover {

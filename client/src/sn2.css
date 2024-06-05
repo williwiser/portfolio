@@ -3,6 +3,7 @@
 }
 
 .bio .demo-btn {
+  width: 25%;
   background-color: black;
   margin-top: 1rem;
 }
