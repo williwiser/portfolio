@@ -1,11 +1,21 @@
 #sn-2 {
   padding-bottom: 40px;
 }
+.bio {
+  position: relative;
+}
+.sn-text ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #828181;
+}
 
 .bio .demo-btn {
-  width: 25%;
+  width: 26%;
   background-color: black;
   margin-top: 1rem;
+  position: absolute;
+  left: 0;
 }
 
 .bio .demo-btn:hover {
@@ -20,7 +30,7 @@
 
 #sn-2 p {
   max-width: 600px;
-  color: #4e4d4d;
+  color: #828181;
 }
 
 #sn-2 .body {

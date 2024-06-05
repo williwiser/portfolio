@@ -52,10 +52,6 @@ function Section1() {
             <a href="https://github.com/williwiser/">
               <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>
-
-            <a href="https://www.instagram.com/williwiser/">
-              <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-            </a>
           </div>
         </div>
       </section>

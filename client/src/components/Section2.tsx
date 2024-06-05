@@ -14,16 +14,21 @@ function Section2() {
             <img src={potrait} />
             <div className="bio">
               <p className="sn-text">
-                Hello there, it's William Wani, an avid full stack developer
-                based in Mutare, Zimbabwe. I build web applications and have two
-                years of experience working on personal projects. I have curated
-                a handful of my projects here in my portfolio. <br />
-                I am currently studying for a B.Sc. in Computer Science and
-                Applied Mathematics at Rhodes University in South Africa,
-                expected to graduate in 2025. <br /> I take pride in having a
-                high standard for my work, meticulously paying attention to
-                small details. I'm also a musician, lover of jazz and curious
-                stargazer!
+                Hello there, I'm William Wani, a passionate full stack developer
+                hailing from the quiet city of Mutare, Zimbabwe. <br />
+                Some little facts about me:
+                <br />
+                <ul>
+                  <li>I build web applications 🧑‍💻</li>
+                  <li>Computer science and applied math student @ Rhodes 🎓</li>
+                  <li>Machine learning enthusiast 🤖</li>
+                  <li>Working on an app 📱</li>
+                </ul>
+                Furthermore, I take pride in having a high standard for my work,
+                meticulously paying attention to small details. But it's not all
+                code and algorithms—I'm also a musician, lover of jazz and avid
+                stargazer. <br /> Anyways, feel free to take a look around and
+                get in touch if you'd like to collaborate or just chat!
               </p>
               <a
                 href="https://drive.google.com/file/d/1MGhv_nTQZ2MaOIpo9yFiBk-wyFDL8DRn/view?usp=sharing"

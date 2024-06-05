@@ -72,7 +72,7 @@ span {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 section {
@@ -92,7 +92,7 @@ section {
 }
 
 .sn-text {
-  color: #212121;
+  color: rgb(205, 91, 158);
 }
 
 @media only screen and (max-width: 768px) {
