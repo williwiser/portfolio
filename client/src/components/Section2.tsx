@@ -22,7 +22,7 @@ function Section2() {
                 Applied Mathematics at Rhodes University in South Africa,
                 expected to graduate in 2025. <br /> I take pride in having a
                 high standard for my work, meticulously paying attention to
-                small details. I'm also a musician, lover of jazz and a curious
+                small details. I'm also a musician, lover of jazz and curious
                 stargazer!
               </p>
               <a
