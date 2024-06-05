@@ -1,60 +1,60 @@
 .header {
-    width: 100%;
-    background-color: rgb(26, 26, 26);
-    position: fixed;
-    z-index: 100;
+  width: 100%;
+  background-color: rgb(26, 26, 26);
+  position: fixed;
+  z-index: 100;
 }
 
-.header .wrapper{
-    text-align: center;
-    padding: 30px 0;
+.header .wrapper {
+  text-align: center;
+  padding: 30px 0;
 }
 
 .ham-btn {
-    display: none;
-    background-color: transparent;
-    border: none;
-    margin-right: 2rem;
-    font-size: 2rem;
-    color: rgb(91, 192, 205);
-    cursor: pointer;
+  display: none;
+  background-color: transparent;
+  border: none;
+  margin-right: 2rem;
+  font-size: 2rem;
+  color: rgb(91, 192, 205);
+  cursor: pointer;
 }
 .nav ul li {
-    display: inline-block;
-    margin: 0 40px;
-    
+  display: inline-block;
+  margin: 0 40px;
 }
 
 nav ul li a:hover {
-    color: rgb(141, 65, 109);
-    transition: 0.3s
+  color: rgb(141, 65, 109);
+  transition: 0.3s;
 }
 
-.active {
-    color: rgb(205, 91, 158);
+nav .active {
+  color: rgb(205, 91, 158);
+  border-top: 2px solid rgb(205, 91, 158);
 }
 
 @media only screen and (max-width: 768px) {
-    .nav ul li {
-        display: block;
-        padding: 30px;
-    }
+  .nav ul li {
+    display: block;
+    padding: 30px;
+  }
 
-    .ham-btn {
-        display: block;
-        float: right;
-        margin-bottom: 1.5rem;
-    }
+  .ham-btn {
+    display: block;
+    float: right;
+    margin-bottom: 1.5rem;
+  }
 
-    .nav {
-        display: block;
-        height: 100%;
-        transition: display 200ms ease-in;
-    }
+  .nav {
+    display: block;
+    height: 100%;
+    transition: display 200ms ease-in;
+  }
 
-    .show-menu {
-        display: none;
-        height: 100%;
-        transition: height 200ms ease-in;
-    }
+  .show-menu {
+    display: none;
+    height: 100%;
+    transition: height 200ms ease-in;
+  }
 }
