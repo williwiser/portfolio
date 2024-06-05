@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import {
   faGithub,
   faLinkedin,
-  faXTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
