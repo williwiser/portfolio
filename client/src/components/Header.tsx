@@ -10,7 +10,7 @@ function Header() {
     const sections = document.querySelectorAll("section");
     const options = {
       root: null,
-      threshold: 0.8, // Adjust as needed
+      threshold: 0.6, // Adjust as needed
     };
 
     const observer = new IntersectionObserver((entries) => {
