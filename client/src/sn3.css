@@ -19,12 +19,12 @@
   color: #212121;
 }
 .skill img {
-  height: 7.5rem;
+  height: 5rem;
 }
 
 @media only screen and (max-width: 768px) {
   .grid-container {
-    display: inline-block;
+    grid-template-columns: auto auto;
   }
 
   .skill {
