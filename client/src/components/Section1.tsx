@@ -34,7 +34,12 @@ function Section1() {
               <h1 id="intro-name">Hi, I'm William</h1>
               <h3 id="intro-role">A Full Stack Developer</h3>
               <p id="intro-skills">
-                Node.js, MongoDB, Express, React, TypeScript, PostgreSQL
+                PostgreSQL, Express, React, Node.js (PERN Stack)
+              </p>
+              <p id="selling-point">
+                I build fast, responsive and high quality web applications-{" "}
+                <br />
+                meticulously paying attention to small details.
               </p>
               <a className="btn" href="#sn-5" id="contact">
                 Contact Me

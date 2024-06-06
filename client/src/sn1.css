@@ -15,13 +15,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: clamp(6rem, 10%, 12rem) 0;
 }
 
 .intro {
   text-align: center;
   position: relative;
+}
+
+#selling-point {
+  color: #828181;
 }
 
 .intro h1 {
