@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: clamp(5rem, 15%, 12rem) 0;
+  padding: clamp(6rem, 10%, 12rem) 0;
 }
 
 .intro {
