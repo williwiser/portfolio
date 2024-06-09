@@ -25,7 +25,7 @@ function Section4() {
     <>
       <section id="sn-4">
         <div className="wrapper">
-          <h1 className="sn-title lt">My Work</h1>
+          <h1 className="sn-title lt">My Projects</h1>
           <ul>
             {projectList.map((project: Project) => {
               const tagsList = project.tags.split(", ");

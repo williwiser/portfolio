@@ -16,19 +16,16 @@ function Section2() {
               <p className="sn-text">
                 Hello there, I'm William Wani, a passionate full stack developer
                 hailing from the quiet city of Mutare, Zimbabwe. <br />
-                Some little facts about me:
-                <br />
-                <ul>
-                  <li>I build web applications 🧑‍💻</li>
-                  <li>Computer science and applied math student @ Rhodes 🎓</li>
-                  <li>Machine learning enthusiast 🤖</li>
-                  <li>Working on an app 📱</li>
-                </ul>
-                Furthermore, I take pride in having a high standard for my work,
-                meticulously paying attention to small details. But it's not all
-                code and algorithms—I'm also a musician, lover of jazz and avid
-                stargazer. <br /> Anyways, feel free to take a look around and
-                get in touch if you'd like to collaborate or just chat!
+                I love building web applications and have been diving into
+                personal projects for the past two years. I have curated a
+                handful of my projects here in my portfolio. <br />
+                Right now, I'm pursuing a B.Sc. in Computer Science and Applied
+                Mathematics at Rhodes University in South Africa, and I'll be
+                graduating in 2025. <br />
+                But it's not all code and algorithms—I'm also a musician, lover
+                of jazz and avid stargazer. <br /> Anyways, feel free to take a
+                look around and get in touch if you'd like to collaborate or
+                just chat!
               </p>
               <a
                 href="https://drive.google.com/file/d/1MGhv_nTQZ2MaOIpo9yFiBk-wyFDL8DRn/view?usp=sharing"
